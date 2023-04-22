@@ -1,5 +1,6 @@
 :root {
-  --white-color: #FFFFFF;
+  --white-color: #ffffff;
+  --level1-background: #181823;
 }
 
 h1,
@@ -38,6 +39,11 @@ button {
   gap: 48px;
 }
 
+.hero {
+  background-color: var(--level1-background);
+}
+
+
 .hero-header {
   position: absolute;
   width: 738px;
@@ -50,26 +56,27 @@ button {
   line-height: 94px;
   display: flex;
   align-items: center;
+
 }
 
 .hero-paragr {
   position: absolute;
-width: 738px;
-height: 54px;
-left: 662px;
-top: 535px;
+  width: 738px;
+  height: 54px;
+  left: 662px;
+  top: 535px;
 
-/* Pargraph_18px */
+  /* Pargraph_18px */
 
-font-family: 'Sen';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 150%;
-/* or 27px */
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-color: var(--white-color);
+  color: var(--white-color);
 }

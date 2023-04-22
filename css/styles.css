@@ -1,8 +1,20 @@
 :root {
+  /* --color-black: #000000ff; */
+  /* --color-level-1: #181823ff; */
+  /* --color-white: #ffffffff;
+  --color-purple: #5221e6ff;
+  --color-light-grey: #8491a0ff;
+  --color-dark-grey: #5b6876ff;
+  --color-green-accent: #3cc74eff;
+  --color-blue-accent: #609bffff;
+  --color-pink-accent: #e95d90ff;
+  --color-peach-accent: #fff3e4ff;
+  --color-violet-accent: #fbe4ffff; */
+
   --white-color: #ffffff;
-  --level1-background: #181823;
+  --level-background: #181823;
   --color-black: #000000;
-  --color-level-1: #181823;
+  --color-level: #181823;
   --color-white: #ffffff;
   --color-purple: #5221e6;
   --color-light-grey: #8491a0;
@@ -16,11 +28,47 @@
   --primary-container-width: 1296px;
 }
 
+.container {
+  display: flex;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #8491a0;
+  background-color: #000000ff;
+}
+
+.button {
+  border: 1px solid #5221e6;
+
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+/**
+  |============================
+  | Reset styles
+  |============================
+*/
 h1,
 h2,
+h3,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 ul,
@@ -36,10 +84,6 @@ img {
 
 button {
   cursor: pointer;
-}
-
-.list {
-  list-style: none;
 }
 
 /* .text-style-label-117-px {
@@ -75,6 +119,51 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+/**
+  |============================
+  | Projects
+  |============================
+*/
+.above-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8491a0;
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.2;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+.projects-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+.projects-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #8491a0;
+
+  display: flex;
+  align-items: center;
 }
 
 .munu-items {

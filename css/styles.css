@@ -1,0 +1,82 @@
+:root {
+  --white-color: #ffffff;
+  --level1-background: #181823;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.munu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.hero {
+  background-color: var(--level1-background);
+}
+
+
+.hero-header {
+  position: absolute;
+  width: 738px;
+  height: 282px;
+  left: 662px;
+  top: 221px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 94px;
+  display: flex;
+  align-items: center;
+
+}
+
+.hero-paragr {
+  position: absolute;
+  width: 738px;
+  height: 54px;
+  left: 662px;
+  top: 535px;
+
+  /* Pargraph_18px */
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  display: flex;
+  align-items: center;
+
+  color: var(--white-color);
+}

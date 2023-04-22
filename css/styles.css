@@ -1,7 +1,7 @@
 :root {
-  --color-black: #000000ff;
-  --color-level-1: #181823ff;
-  --color-white: #ffffffff;
+  /* --color-black: #000000ff; */
+  /* --color-level-1: #181823ff; */
+  /* --color-white: #ffffffff;
   --color-purple: #5221e6ff;
   --color-light-grey: #8491a0ff;
   --color-dark-grey: #5b6876ff;
@@ -9,7 +9,23 @@
   --color-blue-accent: #609bffff;
   --color-pink-accent: #e95d90ff;
   --color-peach-accent: #fff3e4ff;
-  --color-violet-accent: #fbe4ffff;
+  --color-violet-accent: #fbe4ffff; */
+
+  --white-color: #ffffff;
+  --level-background: #181823;
+  --color-black: #000000;
+  --color-level: #181823;
+  --color-white: #ffffff;
+  --color-purple: #5221e6;
+  --color-light-grey: #8491a0;
+  --color-dark-grey: #5b6876;
+  --color-green-accent: #3cc74e;
+  --color-blue-accent: #609bff;
+  --color-pink-accent: #e95d90;
+  --color-peach-accent: #fff3e4;
+  --color-violet-accent: #fbe4ff;
+
+  --primary-container-width: 1296px;
 }
 
 .container {
@@ -53,6 +69,52 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* .text-style-label-117-px {
+  font-size: 117px;
+  font-family: "Sen";
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+} */
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-light-grey);
+
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -102,4 +164,93 @@ p {
 
   display: flex;
   align-items: center;
+}
+
+.munu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.hero {
+  background-color: var(--level1-background);
+}
+
+.hero-header {
+  position: absolute;
+  width: 738px;
+  height: 282px;
+  left: 662px;
+  top: 221px;
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 94px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-paragr {
+  position: absolute;
+  width: 738px;
+  height: 54px;
+  left: 662px;
+  top: 535px;
+
+  /* Pargraph_18px */
+
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  display: flex;
+  align-items: center;
+
+  color: var(--white-color);
+}
+
+.title,
+.subtitle,
+.text {
+  margin: 0;
+}
+
+.btn {
+  display: block;
+}
+
+.container {
+  max-width: var(--primary-container-width);
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+}
+.skillset {
+}
+.title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.2;
+  color: var(--color-white);
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+.text {
+}
+.list {
+}
+.item {
+}
+.icon {
 }

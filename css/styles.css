@@ -1,6 +1,7 @@
 :root {
   --white-color: #ffffff;
   --level1-background: #181823;
+  --primary-font: "Roboto", sans-serif;
 }
 
 body {
@@ -52,11 +53,6 @@ button {
 
 
 .hero-header {
-  position: absolute;
-  width: 738px;
-  height: 282px;
-  left: 662px;
-  top: 221px;
   font-weight: 700;
   font-size: 78px;
   line-height: 94px;
@@ -66,20 +62,11 @@ button {
 }
 
 .hero-paragr {
-  position: absolute;
-  width: 738px;
-  height: 54px;
-  left: 662px;
-  top: 535px;
 
-  /* Pargraph_18px */
-
-  font-family: "Sen";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  /* or 27px */
 
   display: flex;
   align-items: center;

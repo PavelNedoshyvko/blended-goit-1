@@ -3,6 +3,13 @@
   --level1-background: #181823;
 }
 
+body {
+  font-family: var(--primary-font);
+  background-color: var(--white-color);
+  font-weight: 500;
+  color: var(--slate-color);
+}
+
 h1,
 h2,
 p {
@@ -50,7 +57,6 @@ button {
   height: 282px;
   left: 662px;
   top: 221px;
-  font-family: "Sen";
   font-weight: 700;
   font-size: 78px;
   line-height: 94px;

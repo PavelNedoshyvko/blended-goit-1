@@ -1,6 +1,19 @@
 :root {
   --white-color: #ffffff;
   --level1-background: #181823;
+  --color-black: #000000;
+  --color-level-1: #181823;
+  --color-white: #ffffff;
+  --color-purple: #5221e6;
+  --color-light-grey: #8491a0;
+  --color-dark-grey: #5b6876;
+  --color-green-accent: #3cc74e;
+  --color-blue-accent: #609bff;
+  --color-pink-accent: #e95d90;
+  --color-peach-accent: #fff3e4;
+  --color-violet-accent: #fbe4ff;
+
+  --primary-container-width: 1296px;
 }
 
 h1,
@@ -29,6 +42,37 @@ button {
   list-style: none;
 }
 
+/* .text-style-label-117-px {
+  font-size: 117px;
+  font-family: "Sen";
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: none;
+} */
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-light-grey);
+
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .link {
   text-decoration: none;
 }
@@ -43,7 +87,6 @@ button {
   background-color: var(--level1-background);
 }
 
-
 .hero-header {
   position: absolute;
   width: 738px;
@@ -56,7 +99,6 @@ button {
   line-height: 94px;
   display: flex;
   align-items: center;
-
 }
 
 .hero-paragr {
@@ -79,4 +121,47 @@ button {
   align-items: center;
 
   color: var(--white-color);
+}
+
+.title,
+.subtitle,
+.text {
+  margin: 0;
+}
+
+.btn {
+  display: block;
+}
+
+.container {
+  max-width: var(--primary-container-width);
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+}
+.skillset {
+}
+.title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.2;
+  color: var(--color-white);
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--color-white);
+}
+.text {
+}
+.list {
+}
+.item {
+}
+.icon {
 }
